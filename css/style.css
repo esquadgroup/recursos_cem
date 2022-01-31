@@ -424,7 +424,12 @@ footer{
     .mais-recursos{
         margin-left: 20px;
     }
-    
+    .disponibilidades{
+        margin-top: 20px
+    }
+    footer{
+        padding: 12px 0;
+    }
 }
 
 
@@ -433,6 +438,13 @@ footer{
     .header{
         width: 100%;
         padding: 20px 10px;
+        position: fixed;
+        border-bottom: solid 1px var(--line-header);
+        background-color: var(--btn-text-color);
+        z-index: 999;
+    }
+    .margin-top-topo{
+        margin-top: 60px;
     }
     .small{
         font: 10px;
