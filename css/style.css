@@ -1,0 +1,557 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    transition: 250ms;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-text-color: #5C667B;
+    --main-text-hover-color: #3d485f;
+    --light-blue: #006BA8;
+    --btn-text-color: #ffffff;
+    --line-header: #CCE0EB;
+    --main-blue:#003B5C;
+}
+
+h1{
+    font-size: 54px;
+    color: var(--light-blue);
+    font-weight: normal;
+}
+h2{
+    font-size: 28px;
+    font-weight: normal;
+    color: var(--main-text-color);
+    margin-top: 10px;
+}
+h3{
+    font-size: 38px;
+    color: var(--main-blue);
+    font-weight: normal;
+}
+h4{
+    font-size: 30px;
+    color: var(--light-blue);
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.img-item img{
+    border-radius: 10px;
+}
+ 
+.btn{
+    padding: 20px;
+    font-size: 22px;
+    color: var(--btn-text-color) !important;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.big{
+    font-size: 22px;
+}
+
+.small{
+    font-size: 14px;
+}
+
+.blue-degrade{
+    background: rgb(0,107,168);
+    background: linear-gradient(45deg, rgba(0,107,168,1) 0%, rgba(0,155,245,1) 100%);
+    margin-top: 40px;
+}
+
+.green-degrade{
+    background: rgb(29,146,170);
+    background: linear-gradient(45deg, rgba(29,146,170,1) 0%, rgba(10,194,163,1) 100%);
+    margin-left: 40px;
+
+}
+
+.green-degrade:hover{
+    box-shadow: -3px 3px 12px rgba(12,188,194,.6);    
+
+}
+
+.header{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#btn-mobile{
+    display: none;
+}
+.logo-eg img{
+    height: 30px;
+}
+
+.menu,
+.menu nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu nav ul li{
+    margin-left: 40px;
+    font-size: 14px;
+}
+
+.menu a{
+    color: var(--main-text-color);
+}
+
+.menu a:hover{
+    color: var(--light-blue);
+    font-weight: 800;
+}
+
+.container{
+    width: 1140px;
+    margin: auto; 
+}
+.box-top{
+    width: 48%;
+}
+
+.logo-cem-01{
+    margin: 165px 0 20px 0;
+}
+
+.mockup-cem{
+    margin: 0 -50px -50px -50px;
+}
+
+.check{
+    display: block;
+    margin: 30px 115px;
+}
+
+.header-line{
+    background-color: var(--line-header);
+    height: 1px;
+    border: none;
+}
+
+.divisor {
+    border: solid 1px var(--main-blue);
+    border-radius: 10px;
+    padding: 20px 30px;
+    display: inline-block;
+}
+
+.item-box{
+    padding: 60px 0;
+    border-bottom: solid 1px var(--line-header);
+    position: relative;
+}
+
+.mais-recursos{
+    margin: 55px 0;
+}
+
+.content-item{
+    width: 50%;  
+}
+
+.content-item img{
+    margin-right: 15px;
+}
+
+.content-item p {
+    font-size: 18px;
+    color: var(--main-text-color);
+}
+
+
+.content-list{
+    display: flex;
+}
+
+.content-list hr{
+    margin-bottom: 55px;
+}
+
+.box-left-plus{
+    margin-right: 50px;
+}
+
+.disponibilidades{
+    display: flex;
+    align-items: center;
+    color: var(--main-blue);
+    margin-bottom: 20px;
+}
+
+.disponibilidades p, img{
+    margin-right: 15px;
+}
+
+.box-right-plus ul li{
+    font-size: 20px;
+    margin: 10px 0;
+    color: var(--main-text-color);
+    list-style: initial;
+}
+
+.box-right-plus ul {
+    margin: 0 0 55px 20px;
+}
+
+.divisor_bold{
+    border: 2px solid var(--main-blue);
+    border-radius: 5px;
+}
+
+footer{
+    background-color: var(--light-blue);
+    
+}
+
+.flex-f{
+    color: var(--btn-text-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+.separador{
+    border: 1px solid var(--main-blue);
+    border-radius: 5px;
+    margin: 90px 0;
+}
+
+.mtop-60{
+    margin-top: 60px;
+}
+.asterisco{
+    color: var(--light-blue);
+    position: relative;
+    top: -1rem;
+    margin: 0 10px 0 -10px;
+}
+.dotless{
+    list-style: none !important;
+}
+.box-right-plus ul li .notes li{
+    list-style: none;
+    font-size: 14px;
+}
+
+.form-contato{
+    width: 600px;
+    max-width: 100%;
+    margin: 50px auto;
+
+}
+
+#rd-section-kz2nbotl h1{
+    font-size: 36px;
+}
+
+#rd-text-kz2nbotp h2{
+    font-size: 28px;
+    color: var(--main-text-color) !important;
+}
+
+@media (max-width: 1200px){
+    .header{
+        width: 100%;
+        padding: 20px 10px;
+    }
+    .small{
+        font: 10px;
+    }
+    .header-line{
+        width: 100%;
+    }
+    .btn{
+        padding: 10px;
+    }
+    #btn-mobile{
+        display: block;
+    }
+    #menu{
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 95px;
+        right: 0px;
+        background: #315580;
+        /* height: calc(100vh - 70px); */
+        
+        z-index: 1000;
+        text-align: left;
+    }
+
+    #menu a{
+        color: var(--btn-text-color);
+        display: block;
+        padding: 1rem 0;
+        
+        border-bottom: 1px solid var(--line-header);
+    }
+
+    #nav.active #menu{
+        display: block;
+        /* height: 300px; */
+        padding: 20px;
+        margin-top: -20px;
+    }
+
+    #btn-mobile{
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        background: none;
+        cursor: pointer;
+        border: none;
+        gap: .5rem;
+    }
+    #hamburger{
+        width: 20px;
+        border-top: 2px solid var(--main-blue);
+        display: block;
+    }
+    .green-degrade{
+        margin-left: 0px;
+    }
+    #hamburger::after, #hamburger::before{
+        width: 20px;
+        height: 2px;
+        background-color: var(--main-blue);
+        content: "";
+        display: block;
+        margin-top: 5px;
+    }
+
+    .container{
+        width: 80%;
+    }
+    .box-top{
+        width: 50%;
+        padding: 20px;
+    }
+    .logo-cem-01{
+        margin: 80px 0 20px 0;
+        width: 90px;
+    }
+    h1{
+        font-size: 34px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .big{
+        font-size: 14px;
+    }
+    .checks img{
+        display: none;
+    }
+    .checks img:first-of-type{
+        display: block;
+        margin: 40px auto;
+    }
+
+    .mockup-cem{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .divisor{
+        margin: 0 20px;
+    }
+    h3{
+        font-size: 28px;
+        text-align: center;
+    }
+    h4{
+        font-size: 24px;
+    }
+    .item-box{
+        padding: 0 20px;
+    }
+    .img-item{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .img-item img{
+        width: 100%;
+        max-width: 504px;
+    }
+
+    .content-item{
+        width: 100%;
+        margin: 30px 0;
+        padding-right: 20px;
+    }
+    .content-item img{
+        height: 20px;
+        margin-right: 8px;
+    }
+    .content-list{
+        display: block;
+    }
+    .box-right-plus ul{
+        margin: 0 0 0 20px;
+    }
+    .disponibilidades img{
+        height: 26px;
+    }
+    .menu nav ul li{
+        margin-left: 0;
+    }
+    .content-list{
+        padding: 0 20px;
+    }
+    .mais-recursos{
+        margin-left: 20px;
+    }
+    
+}
+
+
+
+@media (max-width: 800px){
+    .header{
+        width: 100%;
+        padding: 20px 10px;
+    }
+    .small{
+        font: 10px;
+    }
+    .header-line{
+        width: 100%;
+    }
+    .btn{
+        padding: 10px;
+    }
+    #btn-mobile{
+        display: block;
+    }
+    #menu{
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 95px;
+        right: 0px;
+        background: #315580;
+        /* height: calc(100vh - 70px); */
+        
+        z-index: 1000;
+        text-align: left;
+    }
+
+    #menu a{
+        color: var(--btn-text-color);
+        display: block;
+        padding: 1rem 0;
+        
+        border-bottom: 1px solid var(--line-header);
+    }
+
+    #nav.active #menu{
+        display: block;
+        /* height: 300px; */
+        padding: 20px;
+        margin-top: -20px;
+    }
+
+    .container{
+        width: 100%;
+        display: block;
+        padding: 0 20px;
+    }
+    .box-top{
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+    .logo-cem-01{
+        margin: 30px 0 20px 0;
+        width: 90px;
+    }
+    h1{
+        font-size: 34px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .big{
+        font-size: 14px;
+    }
+    .checks img{
+        display: none;
+    }
+    .checks img:first-of-type{
+        display: block;
+        margin: 40px auto;
+    }
+
+    .mockup-cem{
+        width: 280px;
+        margin-top: -70px;
+        margin-bottom: 0;
+    }
+    .divisor{
+        margin: 0 auto;
+    }
+    h3{
+        font-size: 28px;
+        text-align: center;
+    }
+    h4{
+        font-size: 24px;
+    }
+    .item-box{
+        display: block;
+        padding: 0;
+    }
+    .img-item{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .img-item img{
+        width: 100%;
+        max-width: 504px;
+    }
+
+    .content-item{
+        width: 100%;
+        margin-top: 60px;
+    }
+    .content-item img{
+        height: 20px;
+        margin-right: 8px;
+    }
+    .content-list{
+        display: block;
+        padding: 0;
+    }
+    .disponibilidades img{
+        height: 26px;
+    }
+    .menu nav ul li{
+        margin-left: 0;
+    }
+    .box-right-plus ul li{
+        font-size: 18px;
+    }
+}
