@@ -13,6 +13,7 @@
 :root {
     --main-text-color: #5C667B;
     --main-text-hover-color: #3d485f;
+    --asterisco-color: #7f8799;
     --light-blue: #006BA8;
     --btn-text-color: #ffffff;
     --line-header: #CCE0EB;
@@ -213,7 +214,8 @@ h4{
 }
 
 .box-right-plus ul {
-    margin: 0 0 55px 20px;
+    margin: 20px 0 55px 0px;
+
 }
 
 .divisor_bold{
@@ -270,6 +272,13 @@ footer{
 #rd-text-kz2nbotp h2{
     font-size: 28px;
     color: var(--main-text-color) !important;
+}
+
+.asterisco-treinamento{
+    color: var(--main-text-color);
+    font-size: 12px;
+    margin: 20px 0;
+    color: var(--light-blue);
 }
 
 @media (max-width: 1200px){
