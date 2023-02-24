@@ -439,6 +439,10 @@ footer{
     footer{
         padding: 12px 0;
     }
+    .box-left-plus{
+        text-align: center;
+        margin: 0;
+    }
 }
 
 
